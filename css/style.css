@@ -1,0 +1,47 @@
+html,
+body {
+  height: 98%;
+  width: 100%;
+}
+
+#wrapper {
+  height: 100%;
+  width: 100%;
+}
+#developer,#sysad,#mixed{
+      height: 100%;
+  width: 100%;
+}
+
+#developer {
+
+  display: none;
+}
+
+#sysad {
+
+  display: none;
+}
+
+#mixed {
+ height: 100%;
+    width: 50%;   
+    border-color: black;
+    background-image: url(../img/grande/camisaIzda.jpg);
+    border-width: thick;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#btLeft {
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+}
+
+#btRight {
+  position: absolute;
+  bottom: 50%;
+  right: 20%;
+}
